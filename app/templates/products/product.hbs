@@ -1,0 +1,15 @@
+<div class="layout-row layout-xs-column layout-padding flex">
+    <div class="flex">
+        <h1>{{model.name}}</h1>
+        <img src="{{model.imageUrl}}" class="flex-100">
+    </div>
+    <div class="flex">
+        <h2 class="price">€{{model.price}}</h2>
+        <h4>{{model.stocks}} - in stocks</h4>
+        <p>
+          {{model.description}}
+        </p>
+    </div>
+ </div>
+
+{{outlet}}

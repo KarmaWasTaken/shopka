@@ -20,7 +20,24 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+},
+
+  firebase: {
+      apiKey: "AIzaSyBghgQPtCrpjiVtsikUJwGmKerhV6nWX9k",
+        authDomain: "shopka-2fff8.firebaseapp.com",
+        databaseURL: "https://shopka-2fff8.firebaseio.com",
+        storageBucket: "shopka-2fff8.appspot.com",
+        messagingSenderId: "343839878602"
+
+
+    },
+
+
+  torii: {
+    sessionServiceName: 'session'
+  }
+
+  
   };
 
   if (environment === 'development') {

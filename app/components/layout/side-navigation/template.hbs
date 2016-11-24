@@ -1,0 +1,18 @@
+
+
+  {{#paper-sidenav class="md-whiteframe-z2" name="left" open=leftSideBarOpen onToggle=(action (mut leftSideBarOpen)) }}
+    {{#paper-toolbar as |toolbar|}}
+      {{#paper-toolbar-tools}}MENU{{/paper-toolbar-tools}}
+    {{/paper-toolbar}}
+    {{#paper-content padding=true}}
+      <div class="layout-column">
+        <div class="flex">
+
+
+          {{#paper-button }}
+                Home
+              {{/paper-button}}
+        </div>
+      </div>
+    {{/paper-content}}
+  {{/paper-sidenav}}
